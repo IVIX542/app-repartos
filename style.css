@@ -5,6 +5,10 @@ body{
     padding-top: 10vh;
 }
 
+h1{
+    padding-left: 15vw;
+}
+
 form{
     padding-left: 5vw;
     margin-right: 5vw;
