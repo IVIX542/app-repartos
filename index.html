@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEHÍCULOS</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Buscar por fecha o matricula -->
+
+    <!-- 
+    Segun Fecha:
+    matricula - km - litros
+    remolques
+    -->
+
+    <!-- 
+
+    -->
+
+    <h1 id="titulo">
+        VEHÍCULOS
+    </h1>
+
+    <form>
+        <label for="fecha">Fecha: </label>
+        <input type="text" name="fecha" id="fecha">
+        <br><br>
+        <br><br>
+
+        <label for="matricula">Tractora: </label>
+        <input type="text" name="matricula" id="matricula">
+        <br><br>
+
+        <label for="km">Kilómetros: </label>
+        <input type="text" name="km" id="km">
+        <br><br>
+
+        <label for="litros">Litros: </label>
+        <input type="text" name="litros" id="litros">
+        <br><br>
+
+        <!-- Consumo = (litros/km) * 100 -->
+        <label for="consumo">Consumo: </label>
+        <p id="consumo"></p>
+        <br>
+
+        <label for="remolques">Remolques: </label>
+        <input type="text" name="remolques" id="remolques">
+        <br><br>
+
+        <button type="button" onclick="buscar_fecha()" id="buscar_f">Buscar - Fecha</button>
+        <button type="button" onclick="buscar_matricula()" id="buscar_m"><span id="s_b">Buscar</span> <span id="s_m">- Tractora</span></button>
+        <br><br>
+
+        <button type="button" onclick="anadir()" id="incluir">Añadir</button>
+        <button type="reset" id="borrar">Limpiar</button>
+
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+    background-color: blue;
+    color: antiquewhite;
+    padding-left: 7vw;
+    padding-top: 10vh;
+}
+
+h1{
+    padding-left: 15vw;
+}
+
+form{
+    padding-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgba(127, 255, 249, 0.473);
+    border-radius: 5px;
+    color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#fecha, #litros{
+    margin-left: 9vw;
+}
+#matricula{
+    margin-left: 4vw;
+}
+
+button{
+    size: larger;
+}
+
+#buscar_f{
+    margin-left: 5vw;
+    color: yellow;
+    border-radius: 5px;
+    color: black;
+}
+#buscar_m{
+    color: bisque;
+    border-radius: 5px;
+}
+#s_b{
+    box-sizing: content-box;
+    background-color: blue;
+}
+#s_m{
+    color: black;
+    background-color: aliceblue;
+}
+#incluir{
+    margin-left: 18vw;
+    background-color: green;
+    color: floralwhite;
+    border-radius: 5px;
+}
+#borrar{
+    background-color: rgba(255, 0, 0, 0.7);
+    color: floralwhite;
+    border-radius: 5px;
+}
+#borrar_tabla{
+    margin-left: 19vw;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: floralwhite;
+    border-radius: 5px;
+}
+
+
+input{
+    background-color: rgba(137, 43, 226, 0.479);
+    color: bisque;
+    border-radius: 5px;
+}
